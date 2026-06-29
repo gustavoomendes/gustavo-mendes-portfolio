@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Mendes | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho do site -->
+    <header id="topo">
+        <div class="container">
+
+            <h2 class="logo">Gustavo Mendes</h2>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botão para alternar entre tema claro e escuro -->
+            <button id="btnTema">Tema</button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Seção inicial -->
+        <section id="home" class="banner">
+
+            <div class="container">
+
+                <h1>Olá, eu sou Gustavo Mendes</h1>
+
+                <h3>Engenheiro de Dados</h3>
+
+                <p>
+                    Estudante de Análise e Desenvolvimento de Sistemas pela
+                    UNINTER, com interesse em desenvolvimento de software,
+                    engenharia de dados e computação em nuvem.
+                </p>
+
+                <a href="#sobre" class="botao">
+                    Conheça mais
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Sobre Mim -->
+        <section id="sobre">
+
+            <div class="container">
+
+                <h2>Sobre Mim</h2>
+
+                <p>
+                    Atualmente trabalho como Engenheiro de Dados, desenvolvendo
+                    soluções para integração, transformação e organização de
+                    dados. Utilizo principalmente Python, SQL, dbt,
+                    Snowflake e BigQuery no meu dia a dia.
+                </p>
+
+                <p>
+                    Também possuo experiência com análise de dados e Business
+                    Intelligence utilizando Power BI. No momento estou cursando
+                    Análise e Desenvolvimento de Sistemas para ampliar meus
+                    conhecimentos em desenvolvimento de software.
+                </p>
+
+                <h3>Hobbies</h3>
+
+                <ul class="lista">
+
+                    <li>Estudar novas tecnologias</li>
+                    <li>Assistir séries e filmes</li>
+                    <li>Jogar videogame</li>
+                    <li>Aprender sobre computação em nuvem</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- Formação -->
+        <section id="formacao">
+
+            <div class="container">
+
+                <h2>Formação</h2>
+
+                <div class="card">
+
+                    <h3>Graduação</h3>
+
+                    <p>
+                        Análise e Desenvolvimento de Sistemas
+                    </p>
+
+                    <p>
+                        Centro Universitário Internacional - UNINTER
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Certificações</h3>
+
+                    <ul class="lista">
+
+                        <li>AWS Cloud Practitioner (Em andamento)</li>
+                        <li>Google Data Practitioner (Em andamento)</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Tecnologias</h3>
+
+                    <ul class="lista">
+
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>dbt</li>
+                        <li>Snowflake</li>
+                        <li>BigQuery</li>
+                        <li>Power BI</li>
+                        <li>Git e GitHub</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Idiomas</h3>
+
+                    <ul class="lista">
+
+                        <li>Português - Nativo</li>
+                        <li>Inglês - Intermediário</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Portfólio -->
+        <section id="portfolio">
+
+            <div class="container">
+
+                <h2>Portfólio</h2>
+
+                <div class="projeto">
+
+                    <h3>Pipeline de Engenharia de Dados</h3>
+
+                    <p>
+                        Projeto pessoal em desenvolvimento utilizando Python,
+                        SQL e ferramentas modernas de Engenharia de Dados.
+                    </p>
+
+                </div>
+
+                <div class="projeto">
+
+                    <h3>Dashboards em Power BI</h3>
+
+                    <p>
+                        Desenvolvimento de dashboards para acompanhamento de
+                        indicadores e análise de dados.
+                    </p>
+
+                </div>
+
+                <div class="projeto">
+
+                    <h3>GitHub</h3>
+
+                    <p>
+                        Meus projetos e estudos podem ser encontrados no GitHub.
+                    </p>
+
+                    <a href="https://github.com/gustavoomendes"
+                        target="_blank">
+                        github.com/gustavoomendes
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Formulário de contato -->
+        <section id="contato">
+
+            <div class="container">
+
+                <h2>Contato</h2>
+
+                <form id="formContato">
+
+                    <label for="nome">
+                        Nome
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite seu nome">
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail">
+
+                    <label for="mensagem">
+                        Mensagem
+                    </label>
+
+                    <textarea
+                        id="mensagem"
+                        rows="6"
+                        placeholder="Digite sua mensagem"></textarea>
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Gustavo Mendes
+            </p>
+
+            <p>
+                Desenvolvido para a disciplina de Fundamentos da Programação Web.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
